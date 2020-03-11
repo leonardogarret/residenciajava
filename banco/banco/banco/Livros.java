@@ -147,6 +147,14 @@ public class Livros {
 	public void setQuantidade(int quantidade) {
 		this.quantidade = quantidade;
 	}
+
+	public Livros(int idlivro, String nomeLivro, String genero, String autor, int paginas) {
+		this.idlivro = idlivro;
+		this.nomeLivro = nomeLivro;
+		this.genero = genero;
+		this.autor = autor;
+		this.paginas = paginas;
+	}
 	
 	
 	
